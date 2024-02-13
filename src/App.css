@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(217, 100%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box {
+    max-width: 1440px;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0 5px 10px hsl(229, 24%, 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box .steps-container {
+    max-height: 700px;
+    padding-top: 2rem;
+    padding-bottom: 20rem;
+    padding-left: 2rem;
+    padding-right: 5.5rem;
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.container .box .steps-container .steps-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+
+.container .box .steps-container .steps-box .step {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.container .box .steps-container .steps-box .step.selected {
+    background-color: hsl(206, 94%, 87%);
+    border: none;
+}
+
+.container .box .steps-container .steps-box .step h6 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container .box .steps-container .steps-box .step.selected h6 {
+    color: hsl(213, 96%, 18%)
+}
+
+.container .box .steps-container .steps-box .step-description h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(229, 24%, 87%);
+}
+
+.container .box .steps-container .steps-box .step-description h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
