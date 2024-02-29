@@ -1,0 +1,31 @@
+.main {
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        .input_box {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                color: hsl(213, 96%, 18%);
+                margin-bottom: 0.5rem;
+            }
+
+            input,
+            input {
+                padding: 1rem;
+                border: 2px solid hsl(229, 24%, 87%);
+                border-radius: 5px;
+            }
+
+            input,
+            input::placeholder {
+                font-size: 1rem;
+                font-weight: 600;
+                color: hsl(231, 11%, 63%);
+            }
+        }
+    }
+}

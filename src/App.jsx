@@ -1,18 +1,21 @@
-import './App.scss'
+import styles from './App.module.scss'
 
 import { useState } from 'react'
 
 import Aside from './components/Aside/Aside'
 import Header from './components/Header/Header'
+import Main from './components/Main/Main'
 
 function App() {
   return (
-    <div className='container'>
-      <div className="box">
+    <div className={styles.container}>
+      <div className={styles.box}>
         <Aside />
 
-        <main className='main-container'>
+        <main className={styles.main_container}>
           <Header title={'Personal info'} subtitle={'Please provide your name, email address, and phone number.'} />
+
+          <Main />
         </main>
       </div>
     </div>
