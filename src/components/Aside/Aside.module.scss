@@ -1,0 +1,65 @@
+.steps_container {
+    max-height: 700px;
+    padding-top: 2rem;
+    padding-bottom: 20rem;
+    padding-left: 2rem;
+    padding-right: 5.5rem;
+    background-image: url(../../assets/images/bg-sidebar-desktop.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+
+    .steps_box {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 20px;
+
+        .step {
+            width: 50px;
+            height: 50px;
+            background-color: transparent;
+            border: 3px solid hsl(0, 0%, 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+
+        .step.selected {
+            background-color: hsl(206, 94%, 87%);
+            border: none;
+        }
+
+        h6 {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .step.selected h6 {
+            color: hsl(213, 96%, 18%)
+        }
+
+        .step_description {
+            h3 {
+                font-size: 1rem;
+                font-weight: 400;
+                color: hsl(229, 24%, 87%);
+            }
+
+            h2 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: hsl(0, 0%, 100%);
+            }
+        }
+    }
+}
