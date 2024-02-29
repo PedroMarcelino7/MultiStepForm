@@ -1,0 +1,26 @@
+.button_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        border: none;
+        padding-block: 1rem;
+        padding-inline: 1.5rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .go_back {
+        color: hsl(231, 11%, 63%);
+        background-color: transparent;
+    }
+
+    .next {
+        color: hsl(217, 100%, 97%);
+        background-color: hsl(213, 96%, 18%);
+    }
+}
