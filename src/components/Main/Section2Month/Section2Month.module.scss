@@ -1,0 +1,43 @@
+.box_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 33%;
+        border-radius: 5px;
+        padding: 1rem;
+        border: 2px solid hsl(229, 24%, 87%);
+        
+        .description {
+            // display: flex;
+            h2 {
+                font-size: 1rem;
+                color: hsl(213, 96%, 18%);
+                font-weight: 600;
+                margin-bottom: 0.35rem;
+            }
+            
+            h3 {
+                font-size: 0.85rem;
+                color: hsl(231, 11%, 63%);
+                font-weight: 500;
+            }
+        }
+    }
+
+    .box.selected {
+        border: 2px solid hsl(243, 100%, 62%);
+        background-color: hsl(217, 100%, 97%);
+    }
+}
+
+.option_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

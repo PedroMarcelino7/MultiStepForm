@@ -2,7 +2,7 @@ import styles from './Section1.module.scss'
 
 export default function Section1() {
     return (
-        <section className={styles.main}>
+        <section>
             <form>
                 <div className={styles.input_box}>
                     <label htmlFor="name">Name</label>
