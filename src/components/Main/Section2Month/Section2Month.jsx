@@ -43,9 +43,9 @@ export default function Section2Month() {
             </div>
 
             <div className={styles.option_container}>
-                <h3>Monthly</h3>
+                <h3 className={styles.selected}>Monthly</h3>
 
-                <div class="form-check form-switch shadow-none">
+                <div class="form-check form-switch">
                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
                 </div>
 

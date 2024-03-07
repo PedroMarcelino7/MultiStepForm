@@ -12,8 +12,9 @@
         border-radius: 5px;
         padding: 1rem;
         border: 2px solid hsl(229, 24%, 87%);
-        
+
         .description {
+
             // display: flex;
             h2 {
                 font-size: 1rem;
@@ -21,7 +22,7 @@
                 font-weight: 600;
                 margin-bottom: 0.35rem;
             }
-            
+
             h3 {
                 font-size: 0.85rem;
                 color: hsl(231, 11%, 63%);
@@ -40,4 +41,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    background-color: hsl(217, 100%, 97%);
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    padding-block: 0.5rem;
+
+    h3 {
+        font-size: 1rem;
+        margin-bottom: 0;
+        color: hsl(231, 11%, 63%);
+        font-weight: 700;
+    }
+    h3.selected {
+        color: hsl(213, 96%, 18%);
+    }
 }
