@@ -5,8 +5,8 @@ import { useState } from 'react'
 import Aside from './components/Aside/Aside'
 import Header from './components/Main/Header/Header'
 import Buttons from './components/Main/Buttons/Buttons'
-import Section1 from './components/Main/Section1/Section1'
-import Section2Month from './components/Main/Section2Month/Section2Month'
+import Step1 from './components/Main/Step1/Step1'
+import Step2 from './components/Main/Step2/Step2'
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
         <main className={styles.main_container}>
           <Header title={'Select your plan'} subtitle={'You have the option of monthly or yearly billing.'} />
 
-          {/* <Section1 /> */}
-          <Section2Month />
+          {/* <Step1 /> */}
+          <Step2 />
 
           <Buttons />
         </main>
